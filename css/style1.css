@@ -1,7 +1,7 @@
 
 
 body{
-	background-color: #595857;
+	background-color: #333;
   	color: white;
   	text-shadow: 1px 1px 2px #000000;
   	font-family: Arial, Furura, Trebuchet MS, sans-serif;
@@ -11,8 +11,9 @@ body{
 }
 
 #main-header{
+	display: flex;
 	font-size: 30px;
-	background-color: #8a0900;
+	background-color: #8c3b3b;
 	color: white;
 	text-align: center;
 	padding-top: 20px;
@@ -47,19 +48,19 @@ body{
 }
 
 #rules-block{
-	flex: 4;
+	text-align: left;
 	font-size: 13px;
 	background-color: #333;
 	color: white;
+	margin: 20px;
 }
 
 #sidebar{
-	flex: 1;
 	justify-content: center;
 	background-color:#333;
 	color:#fff;
 	border: 1px #ccc solid;
-	padding: 10px;
+	margin: 20px;
 }
 
 .lists{
@@ -86,6 +87,20 @@ flex-direction: column;
 	margin: 0;
 }
 
+.winner{
+	font-size: 14px;
+	color: yellow;
+	border: 1px yellow dotted;
+	border-radius: 15px;
+	box-shadow: 10px 10px black;
+	margin: 100px;
+
+}
+
+.winner h3{
+	text-align: center;
+}
+
 
 
 .block{
@@ -103,7 +118,7 @@ flex-direction: column;
 }
 
 #date-list{
-	font-size: 18px;
+	font-size: 48px;
 	line-height: 1.6em;
 	background-color: #333;
 	color: white;
